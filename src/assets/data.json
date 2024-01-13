@@ -73,6 +73,20 @@
         ]
     },
     {
+        "name":"公司",
+        "en_name":"company",
+        "icon":"",
+        "web":[
+            {
+                "url":"http://47.251.55.194/",
+                "logo":"assets/images/logos/ybdl.jpg",
+                "title":"ChatGPT",
+                "desc":"亿邦德利ChatGPT"
+            },
+            {}
+        ]
+    },
+    {
         "name": "社区资讯",
         "en_name": "Information",
         "icon": "linecons-doc",

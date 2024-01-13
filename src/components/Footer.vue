@@ -3,11 +3,12 @@
     <div class="footer-inner">
       <!-- 版权信息 -->
       <div class="footer-text">
-        &copy; 2017-2019
-        <a href="#"><strong>WebStack</strong></a> 
-        design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a>
+        &copy; 2023-2024
+        <a href="https://heroxin.xyz"><strong>WebStack-Heroxin</strong></a>
+        design by <a href="https://heroxin.xyz" target="_blank"><strong>Heroxin、</strong></a>
+        <a href="http://viggoz.com"><strong>Viggo</strong></a>
       </div>
-      
+
       <div class="go-up">
         <a href="#" rel="go-top"><i class="fa-angle-up"></i></a>
       </div>
@@ -21,6 +22,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

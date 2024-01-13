@@ -9,11 +9,7 @@
               <img src="../assets/images/logo@2x.png" width="100%" alt="" />
             </a>
             <a href="javascript:void(0)" class="logo-collapsed">
-              <img
-                src="../assets/images/logo-collapsed@2x.png"
-                width="40"
-                alt=""
-              />
+              <img src="../assets/images/logo-collapsed@2x.png" width="40" alt="" />
             </a>
           </div>
           <div class="mobile-menu-toggle visible-xs">
@@ -36,17 +32,21 @@
               <li v-for="(submenu, idx) in menu.children" :key="idx">
                 <a :href="'#' + transName(submenu)" class="smooth">
                   <span class="title">{{ transName(submenu) }}</span>
-                  <span
-                    v-show="submenu.is_hot"
-                    class="label label-pink pull-right hidden-collapsed"
-                    >Hot</span
-                  >
+                  <span v-show="submenu.is_hot" class="label label-pink pull-right hidden-collapsed">Hot</span>
                 </a>
               </li>
             </ul>
           </li>
+          <li>
+            <a href="https://heroxin.xyz">
+              <i class="linecons-heart"></i>
+              <span class="tooltip-blue">Heroxin</span>
+              <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
+            </a>
+
+          </li>
           <!-- 关于本站 -->
-          <li class="submit-tag">
+          <!-- <li class="submit-tag">
             <router-link to="/about">
               <i class="linecons-heart"></i>
               <span class="tooltip-blue">关于本站</span>
@@ -54,7 +54,7 @@
                 >♥︎</span
               >
             </router-link>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -70,11 +70,7 @@
               <img :src="lang.flag" /> {{ lang.name }}
             </a>
             <ul class="dropdown-menu languages">
-              <li
-                :class="{ active: langItem.key === lang.key }"
-                v-for="langItem in langList"
-                :key="langItem.key"
-              >
+              <li :class="{ active: langItem.key === lang.key }" v-for="langItem in langList" :key="langItem.key">
                 <a href="javascript:void(0)" @click="lang = langItem">
                   <img :src="langItem.flag" /> {{ langItem.name }}
                 </a>
@@ -152,5 +148,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
