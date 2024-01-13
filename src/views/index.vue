@@ -84,7 +84,12 @@
         </ul>
         <ul class="user-info-menu right-links list-inline list-unstyled">
           <li class="hidden-sm hidden-xs">
-            <a href="https://github.com/Anjaxs/WebStack-vue" target="_blank">
+            <a href="https://heroxin.xyz" target="_blank">
+              <i class="fa-home"></i> Home
+            </a>
+          </li>
+          <li class="hidden-sm hidden-xs">
+            <a href="https://github.com/heroxin-59/heroxin-nav" target="_blank">
               <i class="fa-github"></i> GitHub
             </a>
           </li>
