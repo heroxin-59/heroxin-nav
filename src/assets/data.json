@@ -11,6 +11,12 @@
                 "desc": "bilibili是国内知名的视频弹幕网站。"
             },
             {
+                "url": "https://www.reddit.com/",
+                "logo": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
+                "title": "Reddit",
+                "desc": "A network of communities based on people's interests."
+            },
+            {
                 "url": "https://www.csdn.net",
                 "logo": "https://g.csdnimg.cn/static/logo/favicon32.ico",
                 "title": "CSDN",
@@ -27,6 +33,24 @@
                 "logo": "https://static.zhihu.com/heifetz/favicon.ico",
                 "title": "知乎",
                 "desc": "有问题，上知乎。可信赖的问答社区。"
+            },
+            {
+                "url": "https://chat.openai.com/",
+                "logo": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
+                "title": "Chat GPT",
+                "desc": "Discovering and enacting the path to safe artificial general intelligence."
+            },
+            {
+                "url": "https://github.com",
+                "logo": "https://github.githubassets.com/favicons/favicon.svg",
+                "title": "GitHub",
+                "desc": "The world’s largest community of developers to discover, share, and build better software."
+            },
+            {
+                "url": "https://mail.cstnet.cn/",
+                "logo": "https://mail.cstnet.cn/coremail/hxphone/favicon.ico",
+                "title": "中国科学院邮箱",
+                "desc": "中国科学院邮箱系统"
             }
         ]
     },
@@ -36,19 +60,7 @@
         "icon": "linecons-desktop",
         "children": [
             {
-                "name": "发现产品",
-                "en_name": "Product",
-                "web": [
-                    {
-                        "url": "https://www.producthunt.com/",
-                        "logo": "assets/images/logos/producthunt.png",
-                        "title": "Producthunt",
-                        "desc": "发现新鲜有趣的产品"
-                    }
-                ]
-            },
-            {
-                "name": "工作手册",
+                "name": "工作工具",
                 "en_name": "workout",
                 "web": [
                     {
@@ -56,6 +68,78 @@
                         "logo": "https://doc.xiaominfo.com/img/favicon.ico",
                         "title": "Knife4j",
                         "desc": "Knife4j本地接口文档"
+                    }
+                ]
+            },
+            {
+                "name": "开发社区",
+                "en_name": "Product",
+                "web": [
+                    {
+                        "url": "https://mvnrepository.com/",
+                        "logo": "https://mvnrepository.com/assets/images/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico",
+                        "title": "Maven",
+                        "desc": "Maven Repository"
+                    },
+                    {
+                        "url": "https://doc.ruoyi.vip/ruoyi-vue/",
+                        "logo": "https://doc.ruoyi.vip/images/favicon.ico",
+                        "title": "Ruo Yi",
+                        "desc": "基于SpringBoot、Spring Security、Jwt、Vue的前后端分离的后台管理系统"
+                    },
+                    {
+                        "url": "https://baomidou.com/",
+                        "logo": "https://baomidou.com/img/favicon.ico",
+                        "title": "MyBatis-Plus",
+                        "desc": "为简化开发而生"
+                    },
+                    {
+                        "url": "https://hub.docker.com/",
+                        "logo": "https://hub.docker.com/favicon.ico",
+                        "title": "Docker Hub",
+                        "desc": "A Docker hosting platform for running containers in any cloud."
+                    },
+                    {
+                        "url": "https://www.bootcss.com/",
+                        "logo": "https://hub.docker.com/favicon.ico",
+                        "title": "Bootstrap",
+                        "desc": "一个用于前端开发的开源工具包。"
+                    },
+                    {
+                        "url": "https://element.eleme.cn/#/zh-CN",
+                        "logo": "https://element.eleme.cn/favicon.ico",
+                        "title": "Element UI",
+                        "desc": "基于 Vue 的桌面端组件库"
+                    },
+                    {
+                        "url": "https://element.eleme.cn/#/zh-CN",
+                        "logo": "https://element.eleme.cn/favicon.ico",
+                        "title": "Element UI",
+                        "desc": "基于 Vue 的桌面端组件库"
+                    }
+                ]
+            },
+            {
+                "name": "找找工作",
+                "en_name": "workout",
+                "web": [
+                    {
+                        "url": "https://www.kanzhun.com/",
+                        "logo": "https://static.kanzhun.com/assets/web/favicon.ico",
+                        "title": "看准网",
+                        "desc": "国内领先的职场信息平台"
+                    },
+                    {
+                        "url": "https://www.nowcoder.com/",
+                        "logo": "https://static.nowcoder.com/images/logo_87_87.png",
+                        "title": "牛客网",
+                        "desc": "互联网求职神器和备考学习平台"
+                    },
+                    {
+                        "url": "https://www.zhipin.com/baoding/",
+                        "logo": "https://static.zhipin.com/zhipin-geek/v695/h5/wap/images/favicon.png",
+                        "title": "Boss",
+                        "desc": "权威领先的招聘网，开启人才网招聘求职新时代"
                     }
                 ]
             }
@@ -67,54 +151,58 @@
         "icon": "linecons-thumbs-up",
         "web": [
             {
+                "url": "https://dontstarve.huijiwiki.com",
+                "logo": "https://av.huijiwiki.com/site_avatar_dontstarve_l.png",
+                "title": "饥荒维基",
+                "desc": "灰机wiki-关注动漫游戏影视等领域的兴趣百科社区"
+            },
+            {
                 "url": "https://www.guanziheng.com/",
                 "logo": "https://www.guanziheng.com/img/favicon.ico",
                 "title": "能力勋章",
                 "desc": "饥荒模组-能力勋章介绍"
-            }
-        ]
-    },
-    {
-        "name": "灵感采集",
-        "en_name": "Inspiration",
-        "icon": "linecons-lightbulb",
-        "children": [
-            {
-                "name": "发现产品",
-                "en_name": "Product",
-                "web": [
-                    {
-                        "url": "https://www.producthunt.com/",
-                        "logo": "assets/images/logos/producthunt.png",
-                        "title": "Producthunt",
-                        "desc": "发现新鲜有趣的产品"
-                    }
-                ]
             },
             {
-                "name": "界面灵感",
-                "en_name": "UI Inspiration",
-                "web": [
-                    {
-                        "url": "https://www.pttrns.com/",
-                        "logo": "assets/images/logos/Pttrns.png",
-                        "title": "Pttrns",
-                        "desc": "Check out the finest collection of design patterns, resources, mobile apps and inspiration"
-                    }
-                ]
+                "url": "https://www.bilibili.com/read/cv20244573/",
+                "logo": "https://www.guanziheng.com/img/favicon.ico",
+                "title": "萌妹勋章",
+                "desc": "饥荒模组-能力勋章-萌妹勋章介绍"
             },
             {
-                "name": "网页灵感",
-                "en_name": "WEB Inspiration",
-                "is_hot": true,
-                "web": [
-                    {
-                        "url": "https://www.awwwards.com/'",
-                        "logo": "assets/images/logos/awwwards.png",
-                        "title": "Awwwards",
-                        "desc": "Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world."
-                    }
-                ]
+                "url": "https://terraria.wiki.gg/zh/wiki/Terraria_Wiki",
+                "logo": "https://terraria.wiki.gg/zh/images/4/4a/Site-favicon.ico",
+                "title": "泰拉瑞亚",
+                "desc": "官方中文泰拉瑞亚维基百科"
+            },
+            {
+                "url": "https://mirror7.sgkoi.dev/JC0SKCZ4B0Y",
+                "logo": "https://terraria.wiki.gg/zh/images/4/4a/Site-favicon.ico",
+                "title": "泰拉模组",
+                "desc": "泰拉瑞亚模组浏览器"
+            },
+            {
+                "url": "https://neave.com/",
+                "logo": "https://neave.com/assets/images/icon-32.png",
+                "title": "Neave",
+                "desc": "Apps from Neave Interactive"
+            },
+            {
+                "url": "https://www.yikm.net/",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/f.png",
+                "title": "Yikm",
+                "desc": "一个可以在线玩红白机的网站"
+            },
+            {
+                "url": "https://hongjingzhijia.com/",
+                "logo": "https://hongjingzhijia.com/zb_users/theme/projectpage/style/favicon.ico",
+                "title": "红警之家",
+                "desc": "红警之家-红警战网对战平台联机版，适配Win10/Win11"
+            },
+            {
+                "url": "https://noita.fandom.com/zh/wiki/Noita_Wiki",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/noita.ico",
+                "title": "Noita",
+                "desc": "Noita中文维基网站"
             }
         ]
     },
@@ -124,7 +212,7 @@
         "icon": "linecons-thumbs-up",
         "children": [
             {
-                "name": "图标素材",
+                "name": "图片图标",
                 "en_name": "Icon",
                 "web": [
                     {
@@ -132,6 +220,12 @@
                         "logo": "https://fontawesome.com/favicon.ico",
                         "title": "Font Awesome",
                         "desc": "一套绝佳的图标字体库和CSS框架"
+                    },
+                    {
+                        "url": "https://www.pixiv.net/",
+                        "logo": "https://www.pixiv.net/favicon.ico",
+                        "title": "Pixiv",
+                        "desc": "イラストコミュニケーションサービス"
                     },
                     {
                         "url": "http://www.iconfont.cn",
@@ -142,44 +236,20 @@
                 ]
             },
             {
-                "name": "PPT资源",
+                "name": "其他资源",
                 "en_name": "PPT",
                 "web": [
                     {
-                        "url": "http://www.officeplus.cn/Template/Home.shtml",
-                        "logo": "assets/images/logos/officeplus.png",
-                        "title": "OfficePLUS",
-                        "desc": "OfficePLUS，微软Office官方在线模板网站！"
+                        "url": "https://www.uy5.net/",
+                        "logo": "https://vip.123pan.cn/1815052847/kelongwo/uploads/member/avatars/238a0b923820dcc5.1654417944.jpg",
+                        "title": "克隆窝",
+                        "desc": "助互联网玩家寻找每一条道路"
                     },
                     {
-                        "url": "http://www.ypppt.com/",
-                        "logo": "assets/images/logos/ypppt.png",
-                        "title": "优品PPT",
-                        "desc": "高质量的模版，而且还有PPT图表，PPT背景图等资源"
-                    },
-                    {
-                        "url": "http://www.pptplus.cn/",
-                        "logo": "assets/images/logos/pptplus.png",
-                        "title": "PPT+",
-                        "desc": "PPT加直播、录制和分享—PPT+语音内容分享平台"
-                    },
-                    {
-                        "url": "http://www.pptmind.com/",
-                        "logo": "assets/images/logos/pptmind.png",
-                        "title": "PPTMind",
-                        "desc": "分享高端ppt模板与keynote模板的数字作品交易平台"
-                    },
-                    {
-                        "url": "http://www.tretars.com/ppt-templates",
-                        "logo": "assets/images/logos/tretars.png",
-                        "title": "tretars",
-                        "desc": "The best free Mockups from the Web"
-                    },
-                    {
-                        "url": "http://ppt.500d.me/",
-                        "logo": "assets/images/logos/500d.png",
-                        "title": "5百丁",
-                        "desc": "中国领先的PPT模板共享平台"
+                        "url": "https://ywyj.cn/",
+                        "logo": "https://ywyj.cn/logo.png",
+                        "title": "一网一匠",
+                        "desc": "一起发现有趣的新产品"
                     }
                 ]
             }
@@ -191,54 +261,6 @@
         "icon": "linecons-diamond",
         "children": [
             {
-                "name": "字体图标",
-                "en_name": "font icon",
-                "web": [
-                    {
-                        "url": "https://affinity.serif.com/",
-                        "logo": "assets/images/logos/AffinityDesigner.png",
-                        "title": "Affinity Designer",
-                        "desc": "专业创意软件"
-                    }
-                ]
-            },
-            {
-                "name": "界面设计",
-                "en_name": "User Interface",
-                "web": [
-                    {
-                        "url": "https://sketchapp.com/",
-                        "logo": "assets/images/logos/sketchapp.png",
-                        "title": "Sketch",
-                        "desc": "The digital design toolkit"
-                    }
-                ]
-            },
-            {
-                "name": "交互动效",
-                "en_name": "Motion Design",
-                "web": [
-                    {
-                        "url": "https://www.adobe.com/cn/products/aftereffects/",
-                        "logo": "assets/images/logos/AdobeAfterEffectsCC.png",
-                        "title": "Adobe After Effects CC",
-                        "desc": "电影般的视觉效果和动态图形。"
-                    }
-                ]
-            },
-            {
-                "name": "在线配色",
-                "en_name": "Colors",
-                "web": [
-                    {
-                        "url": "http://khroma.co/generator/",
-                        "logo": "assets/images/logos/khroma.png",
-                        "title": "khroma",
-                        "desc": "Khroma is the fastest way to discover, search, and save color combos you'll want to use."
-                    }
-                ]
-            },
-            {
                 "name": "在线工具",
                 "en_name": "Online Tools",
                 "web": [
@@ -246,7 +268,7 @@
                         "url": "https://bootschool.net/ascii",
                         "logo": "https://bootschool.net/site/images/favico.png",
                         "title": "BootSchool",
-                        "desc": "英文ASCII艺术字，Spring Boot Banner在线生成工具"
+                        "desc": "英文ASCII艺术字,Spring Boot Banner在线生成工具"
                     },
                     {
                         "url": "https://www.bejson.com/",
@@ -259,6 +281,30 @@
                         "logo": "https://www.cmd5.com/favicon.ico",
                         "title": "CMD5",
                         "desc": "对md5、sha1、sha256等全球通用公开的加密算法进行反向查询"
+                    },
+                    {
+                        "url": "https://www.bootcdn.cn/",
+                        "logo": "https://www.cmd5.com/favicon.ico",
+                        "title": "BootCDN",
+                        "desc": "开源项目免费 CDN 加速服务"
+                    },
+                    {
+                        "url": "https://www.speedtest.net/",
+                        "logo": "https://www.speedtest.net/favicon.ico",
+                        "title": "SpeedTest",
+                        "desc": "Test your Internet connection bandwidth to locations around the world."
+                    },
+                    {
+                        "url": "https://plugin.speedtest.cn/#/",
+                        "logo": "https://plugin.speedtest.cn/favicon.ico",
+                        "title": "测速网",
+                        "desc": "在线测速"
+                    },
+                    {
+                        "url": "https://www.processon.com",
+                        "logo": "https://www.processon.com/public_login/favicon.983368c6.ico",
+                        "title": "ProcessOn",
+                        "desc": "在线协作绘图平台"
                     },
                     {
                         "url": "https://www.ipaddress.com/",
@@ -276,159 +322,14 @@
         "icon": "linecons-pencil",
         "children": [
             {
-                "name": "设计规范",
-                "en_name": "Design Guidelines",
-                "web": [
-                    {
-                        "url": "http://designguidelines.co/",
-                        "logo": "assets/images/logos/designguidelines.png",
-                        "title": "Design Guidelines",
-                        "desc": "Design Guidelines &mdash; The way products are built."
-                    },
-                    {
-                        "url": "https://github.com/alexpate/awesome-design-systems",
-                        "logo": "assets/images/logos/awesome_design_systems.png",
-                        "title": "Awesome design systems",
-                        "desc": " A collection of awesome design systems"
-                    },
-                    {
-                        "url": "https://material.io/guidelines/",
-                        "logo": "assets/images/logos/Material_Design.png",
-                        "title": "Material Design",
-                        "desc": "Introduction - Material Design"
-                    },
-                    {
-                        "url": "https://developer.apple.com/ios/human-interface-guidelines",
-                        "logo": "assets/images/logos/human_interface_guidelines.png",
-                        "title": "Human Interface Guidelines",
-                        "desc": "Human Interface Guidelines iOS"
-                    },
-                    {
-                        "url": "http://viggoz.com/photoshopetiquette/",
-                        "logo": "assets/images/logos/photoshopetiquette.png",
-                        "title": "Photoshop Etiquette",
-                        "desc": "PS礼仪-WEB设计指南"
-                    }
-                ]
-            },
-            {
                 "name": "视频教程",
                 "en_name": "Video Tutorial",
                 "web": [
-                    {
-                        "url": "http://www.photoshoplady.com/",
-                        "logo": "assets/images/logos/PhotoshopLady.png",
-                        "title": "Photoshop Lady",
-                        "desc": "Your Favourite Photoshop Tutorials in One Place"
-                    },
-                    {
-                        "url": "http://doyoudo.com/",
-                        "logo": "assets/images/logos/doyoudo.png",
-                        "title": "doyoudo",
-                        "desc": "创意设计软件学习平台"
-                    },
-                    {
-                        "url": "http://www.c945.com/web-ui-tutorial/",
-                        "logo": "assets/images/logos/web_ui_tutorial.png",
-                        "title": "没位道",
-                        "desc": "WEB UI免费视频公开课"
-                    },
                     {
                         "url": "https://www.imooc.com/",
                         "logo": "assets/images/logos/imooc.png",
                         "title": "慕课网",
                         "desc": "程序员的梦工厂（有UI课程）"
-                    }
-                ]
-            },
-            {
-                "name": "设计文章",
-                "en_name": "Design Article",
-                "web": [
-                    {
-                        "url": "http://www.uisdc.com/",
-                        "logo": "assets/images/logos/uisdc.png",
-                        "title": "优设网",
-                        "desc": "设计师交流学习平台"
-                    },
-                    {
-                        "url": "https://webdesignledger.com",
-                        "logo": "assets/images/logos/webdesignledger.png",
-                        "title": "Web Design Ledger",
-                        "desc": "Web Design Blog"
-                    },
-                    {
-                        "url": "https://medium.com/",
-                        "logo": "assets/images/logos/medium.png",
-                        "title": "Medium",
-                        "desc": "Read, write and share stories that matter"
-                    }
-                ]
-            },
-            {
-                "name": "设计电台",
-                "en_name": "Design FM",
-                "web": [
-                    {
-                        "url": "http://uxcoffee.co/",
-                        "logo": "assets/images/logos/uxcoffee.png",
-                        "title": "UX Coffee",
-                        "desc": "《UX Coffee 设计咖》是一档关于用户体验的播客节目。我们邀请来自硅谷和国内的学者和职人来聊聊「产品设计」、「用户体验」和「个人成长」。"
-                    },
-                    {
-                        "url": "https://anyway.fm/",
-                        "logo": "assets/images/logos/anyway.png",
-                        "title": "Anyway.FM",
-                        "desc": "设计杂谈 • UI 设计师 JJ 和 Leon 主播的设计播客"
-                    },
-                    {
-                        "url": "https://www.yineng.fm",
-                        "logo": "assets/images/logos/yineng.png",
-                        "title": "异能电台",
-                        "desc": "将全宇宙设计师的故事讲给你听。"
-                    }
-                ]
-            },
-            {
-                "name": "交互设计",
-                "en_name": "UX",
-                "is_hot": true,
-                "web": [
-                    {
-                        "url": "http://littlebigdetails.com/",
-                        "logo": "assets/images/logos/littlebigdetails.png",
-                        "title": "Little Big Details",
-                        "desc": "Little Big Details is a curated collection of the finer details of design, updated every day. "
-                    },
-                    {
-                        "url": "https://www.smashingmagazine.com/category/user-experience",
-                        "logo": "assets/images/logos/smashingmagazine.png",
-                        "title": "Smashing Magazine",
-                        "desc": "Below you’ll find the best tips to take not only your UX design process but also the experiences you craft to the next level."
-                    },
-                    {
-                        "url": "https://www.nngroup.com/articles/",
-                        "logo": "assets/images/logos/nngroup.png",
-                        "title": "nngroup",
-                        "desc": "Evidence-Based User Experience Research, Training, and Consulting"
-                    },
-                    {
-                        "url": "http://boxesandarrows.com/",
-                        "logo": "assets/images/logos/boxesandarrows.png",
-                        "title": "Boxes and Arrows",
-                        "desc": "Boxes and Arrows is devoted to the practice, innovation, and discussion of design; including graphic design, interaction design, information architecture and the design of business. "
-                    },
-                    {
-                        "url": "http://uxdesignweekly.com/",
-                        "logo": "assets/images/logos/uxdesignweekly.png",
-                        "title": "UX Design Weekly",
-                        "desc": " get a hand picked list of the best user experience design links every week. "
-                    },
-                    {
-                        "url": "http://uxren.cn/",
-                        "logo": "assets/images/logos/uxren.png",
-                        "title": "UX Ren",
-                        "desc": "用户体验人的专业社区"
                     }
                 ]
             }
@@ -450,10 +351,11 @@
                         "desc": "文书强智才可博于运筹"
                     }
                 ]
-            },{
-                "name":"云服务",
-                "en_name":"云服务",
-                "web":[
+            },
+            {
+                "name": "云服务",
+                "en_name": "云服务",
+                "web": [
                     {
                         "url": "https://cn.aliyun.com/",
                         "logo": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
@@ -467,10 +369,46 @@
                         "desc": "为数百万的企业和开发者提供安全稳定的云计算服务"
                     },
                     {
+                        "url": "https://vercel.com/heroxin-projects",
+                        "logo": "https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico",
+                        "title": "Vercel",
+                        "desc": "Deploy web projects with the best frontend developer experience and highest end-user performance."
+                    },
+                    {
+                        "url": "https://www.qiniu.com/",
+                        "logo": "https://static.qiniu.com/favicon.ico",
+                        "title": "七牛云",
+                        "desc": "企业级云服务商"
+                    },
+                    {
+                        "url": "https://console.leancloud.cn/apps",
+                        "logo": "https://console.leancloud.cn/favicon.ico",
+                        "title": "LeanCloud",
+                        "desc": "一站式后端云服务提供商"
+                    },
+                    {
                         "url": "https://starxn.com",
                         "logo": "https://starxn.com/favicon.ico",
                         "title": "星辰云",
                         "desc": "为草根站长提供专业的云服务"
+                    }
+                ]
+            },
+            {
+                "name": "其他",
+                "en_name": "other",
+                "web": [
+                    {
+                        "url": "https://ikuuu.me",
+                        "logo": "https://ikuuu.me/favicon.ico",
+                        "title": "Ikuuu",
+                        "desc": "还活着"
+                    },
+                    {
+                        "url": "https://mojie.cyou/#/dashboard",
+                        "logo": "",
+                        "title": "魔戒",
+                        "desc": "已经寄了"
                     }
                 ]
             }
