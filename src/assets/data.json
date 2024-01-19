@@ -125,7 +125,7 @@
                     },
                     {
                         "url": "https://www.nowcoder.com/",
-                        "logo": "https://static.nowcoder.com/images/logo_87_87.png",
+                        "logo": "https://static.nowcoder.com/fe/file/images/nowpick/web/www-favicon.ico",
                         "title": "牛客网",
                         "desc": "互联网求职神器和备考学习平台"
                     },
@@ -223,7 +223,7 @@
                     },
                     {
                         "url": "http://www.iconfont.cn",
-                        "logo": "assets/images/logos/iconfont.png",
+                        "logo": "https://img.alicdn.com/imgextra/i4/O1CN01XZe8pH1USpiUNT1QN_!!6000000002517-2-tps-114-114.png",
                         "title": "iconfont",
                         "desc": "阿里巴巴矢量图标库"
                     }
@@ -244,6 +244,12 @@
                         "logo": "https://www.upyunso.com/static/img/upso_mlogo.png",
                         "title": "UP 云搜",
                         "desc": "最全阿里云资源搜索神器"
+                    },
+                    {
+                        "url": "https://www.nfyingshi.com/",
+                        "logo": "https://www.nfyingshi.com/wp-content/themes/mibt/favicon.ico",
+                        "title": "奈菲电影",
+                        "desc": "如果生活很无趣，但至少我可以陪你看剧"
                     },
                     {
                         "url": "https://docs.qq.com/sheet/DVHpJVmRhT3ViV09Q?tab=BB08J2",
@@ -358,7 +364,7 @@
             },
             {
                 "url": "https://www.ipaddress.com/",
-                "logo": "https://s.ipaddress.com/icon/favicon.ico",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/ipaddress.ico",
                 "title": "IPAddress",
                 "desc": "What is my IP Address?"
             }
