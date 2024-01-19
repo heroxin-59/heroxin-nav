@@ -453,7 +453,7 @@
                     },
                     {
                         "url": "http://newoj.acmclub.cn/contests",
-                        "logo": "http://newoj.acmclub.cn/app/favicon.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/neuqoj.ico",
                         "title": "NEUQ OJ",
                         "desc": "程序设计类实验辅助教学平台"
                     },
