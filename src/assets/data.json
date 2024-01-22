@@ -68,6 +68,12 @@
                         "logo": "https://doc.xiaominfo.com/img/favicon.ico",
                         "title": "Knife4j",
                         "desc": "Knife4j本地接口文档"
+                    },
+                    {
+                        "url": "https://api.vvhan.com/",
+                        "logo": "https://api.vvhan.com/favicon.ico",
+                        "title": "韩小韩API接口站",
+                        "desc": "免费API数据接口调用服务平台"
                     }
                 ]
             },
@@ -315,6 +321,12 @@
                 "desc": "在线JSON校验格式化工具"
             },
             {
+                "url": "https://web.baimiaoapp.com/?utm_source=xinquji",
+                "logo": "https://xlimage.uzero.cn/shinescan/res/favicon.ico",
+                "title": "图片转文字在线",
+                "desc": "图片文字提取—网页OCR文字识别— 白描网页版"
+            },
+            {
                 "url": "https://www.cmd5.com/default.aspx",
                 "logo": "https://www.cmd5.com/favicon.ico",
                 "title": "CMD5",
@@ -360,13 +372,13 @@
                 "url": "https://ping.chinaz.com/",
                 "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/zhanzhanggongj.ico",
                 "title": "站长工具",
-                "desc": "站长工具，多个地点ping服务器，网站测速"
+                "desc": "站长工具,多个地点ping服务器,网站测速"
             },
             {
-                "url": "https://www.ipaddress.com/",
+                "url": "https://www.ip.icu/?utm_source=xinquji",
                 "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/ipaddress.ico",
-                "title": "IPAddress",
-                "desc": "What is my IP Address?"
+                "title": "IP地址查询服务",
+                "desc": "查询我的IP地址 IP属地 IP地址 国外访问IP 国内访问IP"
             }
         ]
     },
