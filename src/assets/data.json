@@ -24,7 +24,7 @@
             },
             {
                 "url": "https://www.reddit.com/",
-                "logo": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/reddit.png",
                 "title": "Reddit",
                 "desc": "A network of communities based on people's interests."
             },
@@ -119,7 +119,7 @@
                     },
                     {
                         "url": "https://hub.docker.com/",
-                        "logo": "https://hub.docker.com/favicon.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/docker.ico",
                         "title": "Docker Hub",
                         "desc": "A Docker hosting platform for running containers in any cloud."
                     },
@@ -241,7 +241,7 @@
                     },
                     {
                         "url": "https://www.pixiv.net/",
-                        "logo": "https://www.pixiv.net/favicon.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/pixiv.ico",
                         "title": "Pixiv",
                         "desc": "イラストコミュニケーションサービス"
                     },
@@ -604,9 +604,9 @@
                     },
                     {
                         "url": "https://mojie.cyou/#/dashboard",
-                        "logo": "",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/mojie.ico",
                         "title": "魔戒",
-                        "desc": "已经寄了"
+                        "desc": "已经寄了。又活了"
                     }
                 ]
             }
