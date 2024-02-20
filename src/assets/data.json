@@ -230,7 +230,7 @@
         "icon": "linecons-thumbs-up",
         "children": [
             {
-                "name": "图片图标",
+                "name": "图标字体",
                 "en_name": "Icon",
                 "web": [
                     {
@@ -238,6 +238,12 @@
                         "logo": "https://fontawesome.com/favicon.ico",
                         "title": "Font Awesome",
                         "desc": "一套绝佳的图标字体库和CSS框架"
+                    },
+                    {
+                        "url": "https://www.zitijia.com/SearchIndex?name=poppins",
+                        "logo": "https://www.zitijia.com/static/img/favicon.ico",
+                        "title": "字体家",
+                        "desc": "字体家官网"
                     },
                     {
                         "url": "https://www.pixiv.net/",
