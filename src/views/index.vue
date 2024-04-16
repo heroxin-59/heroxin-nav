@@ -5,7 +5,7 @@
         <header class="logo-env">
           <!-- logo -->
           <div class="logo">
-            <a href="javascript:void(0)" class="logo-expanded">
+            <a href="https://heroxin.xyz" class="logo-expanded">
               <img src="../assets/images/logo@2x.png" width="100%" alt="" />
             </a>
             <a href="javascript:void(0)" class="logo-collapsed">
