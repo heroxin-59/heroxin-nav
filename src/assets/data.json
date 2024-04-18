@@ -24,7 +24,7 @@
             },
             {
                 "url": "https://www.reddit.com/",
-                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/reddit.png",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/reddit.png",
                 "title": "Reddit",
                 "desc": "A network of communities based on people's interests."
             },
@@ -101,7 +101,7 @@
                 "web": [
                     {
                         "url": "https://mvnrepository.com/",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico",
                         "title": "Maven",
                         "desc": "Maven Repository"
                     },
@@ -119,7 +119,7 @@
                     },
                     {
                         "url": "https://hub.docker.com/",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/docker.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/docker.ico",
                         "title": "Docker Hub",
                         "desc": "A Docker hosting platform for running containers in any cloud."
                     },
@@ -149,7 +149,7 @@
                     },
                     {
                         "url": "https://www.nowcoder.com/",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/niuke.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/niuke.ico",
                         "title": "牛客网",
                         "desc": "互联网求职神器和备考学习平台"
                     },
@@ -182,7 +182,7 @@
             },
             {
                 "url": "https://www.bilibili.com/read/cv20244573/",
-                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/蒙昧.png",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/蒙昧.png",
                 "title": "萌妹勋章",
                 "desc": "饥荒模组-能力勋章-萌妹勋章介绍"
             },
@@ -206,7 +206,7 @@
             },
             {
                 "url": "https://www.yikm.net/",
-                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/f.png",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/f.png",
                 "title": "Yikm",
                 "desc": "一个可以在线玩红白机的网站"
             },
@@ -218,7 +218,7 @@
             },
             {
                 "url": "https://noita.fandom.com/zh/wiki/Noita_Wiki",
-                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/noita.ico",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/noita.ico",
                 "title": "Noita",
                 "desc": "Noita中文维基网站"
             }
@@ -247,7 +247,7 @@
                     },
                     {
                         "url": "https://www.pixiv.net/",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/pixiv.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/pixiv.ico",
                         "title": "Pixiv",
                         "desc": "イラストコミュニケーションサービス"
                     },
@@ -295,7 +295,7 @@
                     },
                     {
                         "url": "http://www.mobanwang.com/",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/mubanwang.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/mubanwang.ico",
                         "title": "模板王",
                         "desc": "10000+免费网页模板，网站模板下载大全"
                     },
@@ -394,13 +394,13 @@
             },
             {
                 "url": "https://ping.chinaz.com/",
-                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/zhanzhanggongj.ico",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/zhanzhanggongj.ico",
                 "title": "站长工具",
                 "desc": "站长工具,多个地点ping服务器,网站测速"
             },
             {
                 "url": "https://www.ip.icu/?utm_source=xinquji",
-                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/ipaddress.ico",
+                "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/ipaddress.ico",
                 "title": "IP地址查询服务",
                 "desc": "查询我的IP地址 IP属地 IP地址 国外访问IP 国内访问IP"
             }
@@ -459,7 +459,7 @@
                     },
                     {
                         "url": "https://www.educoder.net/",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/1tab.png",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/1tab.png",
                         "title": "EduCoder",
                         "desc": "信息技术类实践教学平台"
                     }
@@ -489,7 +489,7 @@
                     },
                     {
                         "url": "http://newoj.acmclub.cn/contests",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/neuqoj.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/neuqoj.ico",
                         "title": "NEUQ OJ",
                         "desc": "程序设计类实验辅助教学平台"
                     },
@@ -501,7 +501,7 @@
                     },
                     {
                         "url": "http://i.chaoxing.com/base?t=1615162387758",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/xxtpgn.png",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/xxtpgn.png",
                         "title": "学习通",
                         "desc": "从这里开始全新一天~"
                     }
@@ -544,7 +544,7 @@
                     },
                     {
                         "url": "https://www.zanglikun.com/",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/20221110024014319-32x32.gif",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/20221110024014319-32x32.gif",
                         "title": "Java实战博客",
                         "desc": "一个Java原创、真实战、免费博客站点"
                     },
@@ -610,7 +610,7 @@
                     },
                     {
                         "url": "https://mojie.cyou/#/dashboard",
-                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/img/blog/mojie.ico",
+                        "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/mojie.ico",
                         "title": "魔戒",
                         "desc": "已经寄了。又活了"
                     }
