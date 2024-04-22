@@ -476,12 +476,6 @@
                         "desc": "保定学院论文自检系统"
                     },
                     {
-                        "url": "https://www.cn-ki.net/",
-                        "logo": "",
-                        "title": "论文iData",
-                        "desc": "免费下载学术文献,免费论文下载。"
-                    },
-                    {
                         "url": "https://pintia.cn/problem-sets?tab=0",
                         "logo": "https://static.pintia.cn/sparkling-daydream/icons/default/favicon.ico",
                         "title": "PTA",
@@ -530,29 +524,12 @@
                         "title": "Minterjia",
                         "desc": "一个专注分享前端技术和趋势的博客"
                     },
-                    {
-                        "url": "https://imszz.com/",
-                        "logo": "https://imszz.com/img/favicon.png",
-                        "title": "Hermoso",
-                        "desc": "时间如一捧流沙,缓缓的在指间流尽"
-                    },
-                    {
-                        "url": "https://cbxg.icu/",
-                        "logo": "https://cbxg.icu/favicon.ico",
-                        "title": "OnlyTL",
-                        "desc": "这个人的介绍是空的"
-                    },
+                   
                     {
                         "url": "https://www.zanglikun.com/",
                         "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/20221110024014319-32x32.gif",
                         "title": "Java实战博客",
                         "desc": "一个Java原创、真实战、免费博客站点"
-                    },
-                    {
-                        "url": "https://imlql.cn/",
-                        "logo": "https://npm.elemecdn.com/youthlql@1.0.8/blog/favicon.png",
-                        "title": "风祈的时光录",
-                        "desc": "此间的少年"
                     }
                 ]
             },
