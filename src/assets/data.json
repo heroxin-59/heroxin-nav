@@ -47,12 +47,6 @@
                 "desc": "有问题，上知乎。可信赖的问答社区。"
             },
             {
-                "url": "https://chat.openai.com/",
-                "logo": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
-                "title": "Chat GPT",
-                "desc": "Discovering and enacting the path to safe artificial general intelligence."
-            },
-            {
                 "url": "https://github.com",
                 "logo": "https://github.githubassets.com/favicons/favicon.svg",
                 "title": "GitHub",
@@ -63,6 +57,25 @@
                 "logo": "https://mail.cstnet.cn/favicon.ico",
                 "title": "中国科学院邮箱",
                 "desc": "中国科学院邮箱系统"
+            }
+        ]
+    },
+    {
+        "name": "常用推荐",
+        "en_name": "Recommended",
+        "icon": "linecons-star",
+        "web": [
+            {
+                "url": "https://chat.openai.com/",
+                "logo": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
+                "title": "Chat GPT",
+                "desc": "Discovering and enacting the path to safe artificial general intelligence."
+            },
+            {
+                "url": "https://www.coze.com/",
+                "logo": "https://sf-coze-web-cdn.coze.com/obj/coze-web-sg/obric/coze/favicon.1970.png",
+                "title": "Coze",
+                "desc": "Coze是由字节跳动推出的一个AI聊天机器人和应用程序编辑开发平台,可以理解为字节跳动版的GPTs"
             }
         ]
     },
@@ -524,7 +537,6 @@
                         "title": "Minterjia",
                         "desc": "一个专注分享前端技术和趋势的博客"
                     },
-                   
                     {
                         "url": "https://www.zanglikun.com/",
                         "logo": "https://heroxin.oss-cn-beijing.aliyuncs.com/blog/img/20221110024014319-32x32.gif",
