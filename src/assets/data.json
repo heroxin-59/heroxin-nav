@@ -50,7 +50,7 @@
                 "url": "https://github.com",
                 "logo": "https://github.githubassets.com/favicons/favicon.svg",
                 "title": "GitHub",
-                "desc": "The world’s largest community of developers to discover, share, and build better software."
+                "desc": "The world's largest community of developers to discover, share, and build better software."
             },
             {
                 "url": "https://mail.cstnet.cn/",
@@ -61,7 +61,7 @@
         ]
     },
     {
-        "name": "常用推荐",
+        "name": "智能工具",
         "en_name": "Recommended",
         "icon": "linecons-star",
         "web": [
@@ -70,6 +70,12 @@
                 "logo": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
                 "title": "Chat GPT",
                 "desc": "Discovering and enacting the path to safe artificial general intelligence."
+            },
+            {
+                "url": "https://yiyan.baidu.com/",
+                "logo": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
+                "title": "文心一言",
+                "desc": "百度文心一言"
             },
             {
                 "url": "https://www.coze.com/",
