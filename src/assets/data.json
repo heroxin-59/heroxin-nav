@@ -73,13 +73,19 @@
             },
             {
                 "url": "https://yiyan.baidu.com/",
-                "logo": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
+                "logo": "https://nlp-eb.cdn.bcebos.com/static/eb/asset/robin.e9dc83e5.png",
                 "title": "文心一言",
                 "desc": "百度文心一言"
             },
             {
+                "url": "https://tongyi.aliyun.com/qianwen/",
+                "logo": "https://img.alicdn.com/imgextra/i1/O1CN01asLYeX1WhbsyEZn5u_!!6000000002820-55-tps-56-56.svg",
+                "title": "通义灵码",
+                "desc": "通义tongyi.ai你的全能AI助手通义千问"
+            },
+            {
                 "url": "https://www.coze.com/",
-                "logo": "https://sf-coze-web-cdn.coze.com/obj/coze-web-sg/obric/coze/favicon.1970.png",
+                "logo": "https://sf16-passport-sg.ibytedtos.com/img/user-avatar-alisg/564a3f22c53f163458c3239781397a4a~300x300.image",
                 "title": "Coze",
                 "desc": "Coze是由字节跳动推出的一个AI聊天机器人和应用程序编辑开发平台,可以理解为字节跳动版的GPTs"
             }
@@ -132,7 +138,7 @@
                     },
                     {
                         "url": "https://baomidou.com/",
-                        "logo": "https://baomidou.com/img/favicon.ico",
+                        "logo": "https://baomidou.com/assets/asset.cIbiVTt__ZgvyzK.svg",
                         "title": "MyBatis-Plus",
                         "desc": "为简化开发而生"
                     },
@@ -147,6 +153,12 @@
                         "logo": "https://www.bootcss.com/assets/favicons/favicon.ico",
                         "title": "Bootstrap",
                         "desc": "一个用于前端开发的开源工具包。"
+                    },
+                    {
+                        "url": "https://element-plus.org/zh-CN/component/overview.html",
+                        "logo": "https://element-plus.org/images/element-plus-logo-small.svg",
+                        "title": "Element Plus",
+                        "desc": "一个Vue 3 UI框架 "
                     },
                     {
                         "url": "https://element.eleme.cn/#/zh-CN",
