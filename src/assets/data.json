@@ -14,13 +14,13 @@
                 "url": "https://www.kugou.com/",
                 "logo": "https://www.kugou.com/root/favicon.ico",
                 "title": "酷狗",
-                "desc": "不错"
+                "desc": "还行"
             },
             {
                 "url": "https://music.163.com/",
                 "logo": "https://s1.music.126.net/style/favicon.ico?v20180823",
                 "title": "网易云音乐",
-                "desc": "一般般"
+                "desc": "一般"
             },
             {
                 "url": "https://www.reddit.com/",
@@ -51,12 +51,6 @@
                 "logo": "https://github.githubassets.com/favicons/favicon.svg",
                 "title": "GitHub",
                 "desc": "The world's largest community of developers to discover, share, and build better software."
-            },
-            {
-                "url": "https://mail.cstnet.cn/",
-                "logo": "https://mail.cstnet.cn/favicon.ico",
-                "title": "中国科学院邮箱",
-                "desc": "中国科学院邮箱系统"
             }
         ]
     },

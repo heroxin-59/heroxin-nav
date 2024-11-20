@@ -91,7 +91,20 @@
           </li>
         </ul>
       </nav>
-
+      <div>
+        <el-row style="display: flex; justify-content: center;">
+          <el-col :span="12">
+            <el-input placeholder="请输入查找的内容..." v-model="searchText" @keyup.enter.native="searchClick" class="">
+              <el-select v-model="searchEngine" slot="prepend" placeholder="搜索引擎">
+                <el-option v-for="item in iconList" :key="item.id" :value="item.id">
+                  <img :src="item.icon" style="width: 16px; height: 16px; vertical-align: text-bottom;">&nbsp;&nbsp;{{ item.name }}
+                </el-option>
+              </el-select>
+              <el-button slot="append" icon="el-icon-search" @click="searchClick"></el-button>
+            </el-input>
+          </el-col>
+        </el-row>
+      </div>
       <div v-for="(item, idx) in items" :key="idx">
         <div v-if="item.web">
           <WebItem :item="item" :transName="transName" />
@@ -120,6 +133,8 @@ export default {
   },
   data() {
     return {
+      searchText: '',
+      searchEngine: '',
       items: itemsData,
       lang: {},
       langList: [
@@ -134,6 +149,15 @@ export default {
           flag: "./assets/images/flags/flag-us.png",
         },
       ],
+      iconList:[
+        {id: 'bing', name: 'Bing',icon: 'https://static.monknow.com/newtab/searcher/ceb6c985-d09c-4fdc-b0ea-b304f1ee0f2d.svg'},
+        // {id: 'google', name: 'Google',icon: 'https://static.monknow.com/newtab/searcher/e58b5a00-74fe-4319-af0a-d4999565dd71.svg'},
+        // {id: 'baidu', name: '百度',icon: 'https://static.monknow.com/newtab/searcher/0eb43a90-b4c7-43ce-9c73-ab110945f47d.svg'},
+        {id: 'bilibili', name: '哔哩哔哩',icon: 'https://www.bilibili.com/favicon.ico'},
+        {id: 'zhihu', name: '知乎',icon: 'https://static.zhihu.com/heifetz/favicon.ico'},
+        {id: 'csdn', name: 'CSDN',icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico'},
+        {id: 'kugou', name: '酷狗音乐',icon: 'https://www.kugou.com/root/favicon.ico'},
+      ],
     };
   },
   created() {
@@ -143,6 +167,36 @@ export default {
   methods: {
     transName(webItem) {
       return this.lang.key === "en" ? webItem.en_name : webItem.name;
+    },
+    searchClick(){
+      if(!this.searchText){
+        return
+      }
+      switch (this.searchEngine) {
+        case 'google':
+          window.open('https://www.google.com/search?ie=utf-8&q=' + this.searchText , '_blank');
+          break;
+        case 'baidu':
+          window.open('https://www.baidu.com/s?wd=' + this.searchText , '_blank');
+          break;
+        case 'bing':
+          window.open('https://cn.bing.com/search?q=' + this.searchText , '_blank');
+          break;
+        case 'zhihu':
+          window.open('https://www.zhihu.com/search?type=content&q=' + this.searchText , '_blank');
+          break;
+        case 'bilibili':
+          window.open('https://search.bilibili.com/all?keyword=' + this.searchText , '_blank');
+          break;
+        case 'csdn':
+          window.open('https://so.csdn.net/so/search?q=' + this.searchText , '_blank');
+          break;
+        case 'kugou':
+          window.open('https://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=' + this.searchText , '_blank');
+          break;
+        default:
+          window.open('https://cn.bing.com/search?q=' + this.searchText , '_blank');
+      }
     },
   },
 };
