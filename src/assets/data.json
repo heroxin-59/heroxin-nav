@@ -60,6 +60,12 @@
         "icon": "linecons-star",
         "web": [
             {
+                "url": "https://chat.deepseek.com/",
+                "logo": "https://chat.deepseek.com/favicon.svg",
+                "title": "DeepSeek",
+                "desc": "探索未至之境界"
+            },
+            {
                 "url": "https://chat.openai.com/",
                 "logo": "https://cdn.oaistatic.com/_next/static/media/favicon-32x32.be48395e.png",
                 "title": "Chat GPT",
@@ -76,6 +82,12 @@
                 "logo": "https://img.alicdn.com/imgextra/i1/O1CN01asLYeX1WhbsyEZn5u_!!6000000002820-55-tps-56-56.svg",
                 "title": "通义灵码",
                 "desc": "通义tongyi.ai你的全能AI助手通义千问"
+            },
+            {
+                "url": "https://www.doubao.com/chat/",
+                "logo": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/logo-doubao-overflow.png",
+                "title": "豆包",
+                "desc": "字节跳动旗下AI智能助手"
             },
             {
                 "url": "https://www.coze.com/",
@@ -494,12 +506,6 @@
                 "name": "作业网站",
                 "en_name": "Video Tutorial",
                 "web": [
-                    {
-                        "url": "https://cloud.fanyu.com/organ/lib/bdu",
-                        "logo": "https://cloud.fanyu.com/favicon.ico",
-                        "title": "保定学院",
-                        "desc": "保定学院论文自检系统"
-                    },
                     {
                         "url": "https://pintia.cn/problem-sets?tab=0",
                         "logo": "https://static.pintia.cn/sparkling-daydream/icons/default/favicon.ico",
