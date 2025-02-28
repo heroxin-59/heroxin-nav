@@ -92,12 +92,16 @@
         </ul>
       </nav>
       <div>
-        <el-row style="display: flex; justify-content: center;">
+        <el-row style="display: flex; justify-content: center; color: rgb(161, 162, 162);">
           <el-col :span="12">
-            <el-input placeholder="请输入查找的内容..." v-model="searchText" @keyup.enter.native="searchClick" class="">
-              <el-select v-model="searchEngine" slot="prepend" placeholder="搜索引擎">
-                <el-option v-for="item in iconList" :key="item.id" :value="item.id">
-                  <img :src="item.icon" style="width: 16px; height: 16px; vertical-align: text-bottom;">&nbsp;&nbsp;{{ item.name }}
+            <el-input placeholder="请输入查找的内容..." v-model="searchText" @keyup.enter.native="searchClick" class="input-with-select">
+              <el-select v-model="searchEngine" slot="prepend"  placeholder="" >
+                <div slot="prefix">
+                  <img :src="currentIconUrl" style="width: 20px; height: 20px; margin-top: 10px; margin-left: 2px; border-radius: 80%;">
+                </div>
+                  <el-option v-for="item in iconList" :key="item.id" :value="item.id">
+                  <img :src="item.icon" style="width: 16px; height: 16px; vertical-align: text-bottom;">&nbsp;&nbsp;
+                  {{ item.name }}
                 </el-option>
               </el-select>
               <el-button slot="append" icon="el-icon-search" @click="searchClick"></el-button>
@@ -134,7 +138,7 @@ export default {
   data() {
     return {
       searchText: '',
-      searchEngine: '',
+      searchEngine: 'bing',
       items: itemsData,
       lang: {},
       langList: [
@@ -151,8 +155,8 @@ export default {
       ],
       iconList:[
         {id: 'bing', name: 'Bing',icon: 'https://static.monknow.com/newtab/searcher/ceb6c985-d09c-4fdc-b0ea-b304f1ee0f2d.svg'},
-        // {id: 'google', name: 'Google',icon: 'https://static.monknow.com/newtab/searcher/e58b5a00-74fe-4319-af0a-d4999565dd71.svg'},
-        // {id: 'baidu', name: '百度',icon: 'https://static.monknow.com/newtab/searcher/0eb43a90-b4c7-43ce-9c73-ab110945f47d.svg'},
+        {id: 'google', name: 'Google',icon: 'https://static.monknow.com/newtab/searcher/e58b5a00-74fe-4319-af0a-d4999565dd71.svg'},
+        {id: 'baidu', name: '百度',icon: 'https://static.monknow.com/newtab/searcher/0eb43a90-b4c7-43ce-9c73-ab110945f47d.svg'},
         {id: 'bilibili', name: '哔哩哔哩',icon: 'https://www.bilibili.com/favicon.ico'},
         {id: 'zhihu', name: '知乎',icon: 'https://static.zhihu.com/heifetz/favicon.ico'},
         {id: 'csdn', name: 'CSDN',icon: 'https://g.csdnimg.cn/static/logo/favicon32.ico'},
@@ -164,10 +168,22 @@ export default {
     this.lang = this.langList[0];
     loadJs();
   },
+  computed: {
+    currentIconUrl() {
+      const engine = this.searchEngine;
+      const icon = this.iconList.find(item => item.id === engine);
+      return icon ? icon.icon : '';
+    }
+  }
+  ,
   methods: {
     transName(webItem) {
       return this.lang.key === "en" ? webItem.en_name : webItem.name;
     },
+    getIconById(list,id){
+      return list.find(item => item.id === id).icon
+    }
+    ,
     searchClick(){
       if(!this.searchText){
         return
